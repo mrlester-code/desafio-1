@@ -1,0 +1,97 @@
+#produtos{
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    text-align: center;
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    height: 600px;
+    width: 600px;
+}
+
+#top-message {
+    text-align: center;
+    color:black;
+    background-color: white;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo{
+    height: max-content;
+    width: max-content;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* navbar */
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+float: left;
+border-right: 1px solid black;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #111;
+}
+
+a {
+display: block;
+padding: 8px;
+background-color: gray;
+}
+ 
+legend{
+    font-size: large;
+}
+
+input[type=text]{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    background-color: cadetblue;
+    border: 3px solid darkgoldenrod;
+  }
+
+input[type=submit]{
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 16px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
